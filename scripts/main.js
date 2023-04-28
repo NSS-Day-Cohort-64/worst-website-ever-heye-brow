@@ -1,3 +1,7 @@
+import { displayLocations } from "./locations.js";
+
+
+
 const modal = document.getElementById("modal");
 const modalCloseBtn = document.getElementById("modal-close-btn");
 const consentForm = document.getElementById("consent-form");
@@ -45,3 +49,8 @@ consentForm.addEventListener("submit", function (e) {
     modalCloseBtn.disabled = false;
   }, 3000);
 });
+
+const parentHTMLElement = document.querySelector(".locations")
+
+parentHTMLElement.innerHTML = displayLocations()
+

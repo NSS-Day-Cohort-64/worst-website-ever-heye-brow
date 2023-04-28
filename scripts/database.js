@@ -23,3 +23,7 @@ const database = {
         },
     ]
 }
+
+export const getLocations = () => {
+    return database.locations.map(locations => ({...locations}))
+}

@@ -1,6 +1,6 @@
-import { database } from 'database.js'
+import { getLocations } from './database.js'
 
-const locationsArray = database
+const locationsArray = getLocations()
 
 export const displayLocations = () => {
 
