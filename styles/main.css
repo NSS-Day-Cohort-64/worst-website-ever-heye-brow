@@ -102,3 +102,32 @@ input {
   box-shadow: 1px 1px 3px #999;
   border-radius: 5px;
 }
+body {
+  background-color: pink;
+}
+.missionHead {
+  font-size: 30px;
+  color: firebrick;
+  text-align: center;
+}
+.missionstatement {
+  border: 10px solid yellow;
+  background-color: greenyellow;
+}
+.eyebrow {
+  width: 50px;
+  height: 30px;
+}
+.webName {
+  border: 30px solid hotpink;
+  text-align: center;
+  color: chartreuse;
+}
+.anne-header {
+  color: aqua;
+  font-size: 90px;
+}
+.anneNoBrows {
+  width: 350px;
+  height: 250px;
+}
